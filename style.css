@@ -20,9 +20,11 @@ nav{
 
 .header{
     background-image:url(images/developer.png),url(images/header_bg.png);
+    /* background-size: 100px; */
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     font-family: Open Sans;
+
 }
 
 /* shared style */
@@ -52,6 +54,7 @@ nav{
 
 .text-center{
     text-align: center;
+   
 
 }
 
@@ -63,9 +66,9 @@ nav{
 
 .section-discription{
     font-size: 18px;
-    
     /* font-weight: 400; */
     color: #757575;
+   
 }
 
 
@@ -169,6 +172,9 @@ main{
     gap: 24px;
     color: #474747;
 }
+.skills{
+    font-family: Open Sans;
+}
 
 .skill{
     padding: 40px;
@@ -180,7 +186,8 @@ main{
 /* resume section */
 
 .resume{
-    padding: 30px;
+    padding: 18px;
+    margin-top: 30px;
     
     
 }
@@ -197,5 +204,9 @@ main{
     
     /* font-weight: 400; */
     color: #757575;
+}
+
+.resume-download-cv{
+    margin-top: 80px;
 }
 
