@@ -1,4 +1,7 @@
-
+/* *{
+    margin: 0%;
+    padding: 0%;
+   } */
 
 
 .work-sans-normal{
@@ -20,10 +23,12 @@ nav{
 
 .header{
     background-image:url(images/developer.png),url(images/header_bg.png);
-    /* background-size: 100px; */
+    background-size: 85px;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     font-family: Open Sans;
+    /* max-height: 837px;
+    max-width: 1600px; */
 
 }
 
@@ -136,23 +141,24 @@ nav li a{
 
 
 main{
+
+  
     max-width:1140px;
-    max-height: 550px;
+    /* max-height: 550px; */
     margin: 0 auto;
     margin-top: 130px;
     margin-bottom: 130px;
     font-family: Open Sans;
-
-   
-    
+      
 
 }
 
 /* about section */
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 100px 150px;
     text-align: center;
+
    
     
 }
@@ -208,5 +214,18 @@ main{
 
 .resume-download-cv{
     margin-top: 80px;
+}
+
+
+
+/* footer design section */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 70px;
+}
+.footer-column{
+    width: 50%;
 }
 
